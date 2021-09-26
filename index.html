@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winning Team</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="controls">
+        <div id="inner">
+            <button id="FL">FL</button>
+            <button id="FWD">FORWARD</button>
+            <button id="FR">FR</button>
+            <br>
+            <button id="LFT">TURN LEFT</button>
+            <button id="RGT">TURN RIGHT</button>
+            <br>
+            <button id="BL">BL</button>
+            <button id="BWD">BACKWARD</button>
+            <button id="BR">BR</button>
+            <br>
+            <div>
+                <input type="range" id="speed" oninput="setSpeed()" value="50" min="0" max="100"
+                width="2000px">
+                <br>
+                <label id="speedLabel"></label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
